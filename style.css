@@ -1,0 +1,20 @@
+/* Background Image Section */
+.hero {
+    height: calc(100vh - 50px); /* Full viewport height minus navbar height */
+    background-image: url('img-8.jpg'); /* Replace with your image path */
+    background-size: cover; /* Makes the image cover the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    position: relative; /* Makes the .hero container the reference point for absolute positioning */
+}
+
+/* SVG Overlay */
+.svg-overlay {
+    position: absolute; /* Place the icon relative to the .hero container */
+    /*top: 150px; /* Center vertically */
+    /*left: 200px; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Perfect centering */
+    width: 50px; /* Adjust SVG size */
+    height: 50px;
+    fill:white
+}
